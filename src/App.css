@@ -7,6 +7,10 @@
 }
 
 .calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
 }
 
@@ -14,6 +18,7 @@
   display: grid;
   grid-template-columns: repeat(3, 50px);
   grid-gap: 10px;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -25,3 +30,10 @@ button {
 .result {
   margin-top: 20px;
 }
+
+.resetBtn {
+  width: 110px;
+}
+
+
+
